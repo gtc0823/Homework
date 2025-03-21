@@ -23,11 +23,11 @@ textbox = tkinter.Entry(window)
 textbox.pack()
 
 # 按鈕
-info = tkinter.Button(window, text="關於開發者", bg="white", command=lambda:showinfo(textbox.get()))
-info.pack()
+about = tkinter.Button(window, text="關於開發者", bg="white", command=lambda:showinfo(textbox.get()))
+about.pack()
 
 # 文字標籤
-colorlabel = tkinter.Label(window, height="10", width="10")
+colorlabel = tkinter.Label(window, height="5", width="10")
 colorlabel.pack()
 
 
